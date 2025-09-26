@@ -237,59 +237,70 @@ li {
 			"../promo_iphone_tradein.jpg"
 		);
 }
-.footer{
+
+.footer {
 	background-color: #161617;
 	color: #fff;
 	padding: 100px 0 80px;
 }
-.footer__info{
+
+.footer__info {
 	padding-bottom: 20px;
 	margin-bottom: 18px;
-	border-bottom: 1px solid rgba(255,255,255,.24);
-	color: rgba(255,255,255,.56);
+	border-bottom: 1px solid rgba(255, 255, 255, .24);
+	color: rgba(255, 255, 255, .56);
 	font-size: 12px;
 	line-height: 16px;
-} 
-.footer__info a{
+}
+
+.footer__info a {
 	color: #2997FF;
 	text-decoration: underline;
 }
-.footer__bottom{
+
+.footer__bottom {
 	font-size: 12px;
 	line-height: 16px;
 	display: flex;
 	align-items: center;
 
 }
-.copy{
-	color: rgba(255,255,255,.56);
+
+.copy {
+	color: rgba(255, 255, 255, .56);
 }
-.footer__nav{
+
+.footer__nav {
 	margin-left: 35px;
 
 }
-.footer_region{
+
+.footer_region {
 	margin-left: auto;
 }
-.footer__list{
+
+.footer__list {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 }
-.footer_item{
+
+.footer__item {
 	position: relative;
 }
-.footer_item::before{
+
+.footer__item::before {
 	content: '';
 	position: absolute;
 	width: 1px;
 	height: 10px;
-	background-color: rgba(255,255,255,.4);
-		left: -10px;
+	background-color: rgba(255, 255, 255, .4);
+	left: -10px;
 	top: 2px;
 }
-.footer_item:first-child::before{
-display: none;
+
+.footer_item:first-child::before {
+	display: none;
 }
 
 /* todo==========Бургер======================================= */
@@ -366,27 +377,32 @@ display: none;
 	.menu__list.active {
 		transform: translateY(0);
 	}
+
 	.logo,
 	.btn__menu,
-	.header__items{
+	.header__items {
 		position: relative;
 		z-index: 10;
 	}
+
 	/* .header{
 		position: relative;
 		z-index: 10;
 	} */
 }
+
 @media (max-width: 840px) {
-	.footer__bottom{
+	.footer__bottom {
 		flex-direction: column;
 		align-items: start;
 		gap: 15px;
 	}
-	.footer_region{
+
+	.footer_region {
 		margin-left: 0;
 	}
-	.footer__nav{
+
+	.footer__nav {
 		margin-left: 0;
 	}
 }
@@ -401,13 +417,14 @@ display: none;
 		background-image: url(../images/hero_iphone_17_pro_small.jpg);
 	}
 }
-@media (max-width: 440px){
-	.footer__list{
+
+@media (max-width: 440px) {
+	.footer__list {
 		flex-direction: column;
 		align-items: start;
 	}
-	.footer__item::before{
+
+	.footer__item::before {
 		display: none;
 	}
 }
-
